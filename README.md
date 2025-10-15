@@ -28,6 +28,25 @@ The general API call looks like
 ```python
 api.<methodName>(<args>)
 ```
+### Some methods
+| Method Name | args | Description |
+|-|-|-|
+| titleHomeMainV2 | titleNo= | Returns info for an original series |
+| challengeTitleHomeMainV1 | titleNo= | Returns info for a canvas |
+| promotionInfo | | Returns promotions |
+| getRetentionTitleInfo | IDK | IDK |
+| titleHomeMainRealTimeV2 | IDK | IDK |
+| titleRulesetV1 | IDK | IDK |
+| episodeListRecommendTab | IDK | IDK |
+| customPageEvent | IDK | IDK |
+
+#### General args
+| args | values | Is required? | notes |
+|-|-|-|-|
+| platform | "APP_ANDROID" or "APP_IPHONE" | yes | |
+| serviceZone | "Global" | no | |
+| language | "en" | yes | IDK why but I couldn't make it work for any other language, will try later |
+
 
 # Installation
 
